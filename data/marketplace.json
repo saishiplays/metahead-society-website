@@ -1,0 +1,12 @@
+[
+  {
+    "name": "OpenSea",
+    "image": "assets/images/marketplace/opensea.png",
+    "url": "https://opensea.io/collection/metaheadsociety"
+  },
+  {
+    "name": "Ronin",
+    "image": "assets/images/marketplace/ronin.png",
+    "url": "https://marketplace.roninchain.com/collections/0x35e936487ce4b6128f7ce6e8c5a95c46f6d761fd"
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "archead",
+    "name": "Archead",
+    "image": "assets/images/archead.gif",
+        "sliderImages": [
+      "assets/images/archead-profile.png",
+      "assets/images/archead-gif.gif",
+      "assets/images/archead-static.png"
+    ]
+  },
+  {
+    "id": "calista",
+    "name": "Calista",
+    "image": "assets/images/calista.gif",
+    "sliderImages": [
+      "assets/images/calista-profile.png",
+      "assets/images/calista-gif.gif",
+      "assets/images/calista-static.png"
+    ]
+  },
+  {
+    "id": "greengineer",
+    "name": "Greengineer",
+    "image": "assets/images/greengineer.gif",
+    "sliderImages": [
+      "assets/images/greengineer-profile.png",
+      "assets/images/greengineer-gif.gif",
+      "assets/images/greengineer-static.png"
+    ]
+  },
+  {
+    "id": "entity-zero",
+    "name": "Entity Zero",
+    "image": "assets/images/entity-zero.gif",
+    "sliderImages": [
+      "assets/images/entity-zero-profile.png",
+      "assets/images/entity-zero-gif.gif",
+      "assets/images/entity-zero-static.png"
+    ]
+  },
+  {
+    "id": "daevel",
+    "name": "Daevel",
+    "image": "assets/images/daevel.gif",
+    "sliderImages": [
+      "assets/images/daevel-profile.png",
+      "assets/images/daevel-gif.gif",
+      "assets/images/daevel-static.png"
+    ]
+  },
+  {
+    "id": "commander-draco",
+    "name": "Commander Draco",
+    "image": "assets/images/commander-draco.gif",
+    "sliderImages": [
+      "assets/images/commander-draco-profile.png",
+      "assets/images/commander-draco-gif.gif",
+      "assets/images/commander-draco-static.png"
+    ]
+  },
+    {
+    "id": "meltor",
+    "name": "Meltor",
+    "image": "assets/images/meltor.gif",
+    "sliderImages": [
+      "assets/images/meltor-profile.png",
+      "assets/images/meltor-gif.gif",
+      "assets/images/meltor-static.png"
+    ]
+  },
+    {
+    "id": "stoliath",
+    "name": "Stoliath",
+    "image": "assets/images/stoliath.gif",
+    "sliderImages": [
+      "assets/images/stoliath-profile.png",
+      "assets/images/stoliath-gif.gif",
+      "assets/images/stoliath-static.png"
+    ]
+  },
+    {
+    "id": "aquaria",
+    "name": "Aquaria",
+    "image": "assets/images/aquaria.gif",
+    "sliderImages": [
+      "assets/images/aquaria-profile.png",
+      "assets/images/aquaria-gif.gif",
+      "assets/images/aquaria-static.png"
+    ]
+  },
+    {
+    "id": "space-wanderer",
+    "name": "Space Wanderer",
+    "image": "assets/images/space-wanderer.gif",
+    "sliderImages": [
+      "assets/images/space-wanderer-profile.png",
+      "assets/images/space-wanderer-gif.gif",
+      "assets/images/space-wanderer-static.png"
+    ]
+  },
+  {
+    "id": "death",
+    "name": "Death",
+    "image": "assets/images/death.gif",
+    "sliderImages": [
+      "assets/images/death-profile.png",
+      "assets/images/death-gif.gif",
+      "assets/images/death-static.png"
+    ]
+  },
+  {
+    "id": "zynder-flayre",
+    "name": "Zynder Flayre",
+    "image": "assets/images/zynder-flayre.gif",
+    "sliderImages": [
+      "assets/images/zynder-flayre-profile.png",
+      "assets/images/zynder-flayre-gif.gif",
+      "assets/images/zynder-flayre-static.png"
+    ]
+  },
+  {
+    "id": "tydra",
+    "name": "Tydra",
+    "image": "assets/images/tydra.gif",
+    "sliderImages": [
+      "assets/images/tydra-profile.png",
+      "assets/images/tydra-gif.gif",
+      "assets/images/tydra-static.png"
+    ]
+  },
+  {
+    "id": "tyraus",
+    "name": "Tyraus",
+    "image": "assets/images/tyraus.gif",
+    "sliderImages": [
+      "assets/images/tyraus-profile.png",
+      "assets/images/tyraus-gif.gif",
+      "assets/images/tyraus-static.png"
+    ]
+  },
+  {
+    "id": "king-banarion",
+    "name": "King Banarion",
+    "image": "assets/images/king-banarion.gif",
+    "sliderImages": [
+      "assets/images/king-banarion-profile.png",
+      "assets/images/king-banarion-gif.gif",
+      "assets/images/king-banarion-static.png"
+    ]
+  },
+  {
+    "id": "meowborg",
+    "name": "Meowborg",
+    "image": "assets/images/meowborg.gif",
+    "sliderImages": [
+      "assets/images/meowborg-profile.png",
+      "assets/images/meowborg-gif.gif",
+      "assets/images/meowborg-static.png"
+    ]
+  },
+  {
+    "id": "eldervyn",
+    "name": "Eldervyn",
+    "image": "assets/images/eldervyn.gif",
+    "sliderImages": [
+      "assets/images/eldervyn-profile.png",
+      "assets/images/eldervyn-gif.gif",
+      "assets/images/eldervyn-static.png"
+    ]
+  },
+  {
+    "id": "madtist",
+    "name": "Madtist",
+    "image": "assets/images/madtist.gif",
+    "sliderImages": [
+      "assets/images/madtist-profile.png",
+      "assets/images/madtist-gif.gif",
+      "assets/images/madtist-static.png"
+    ]
+  },
+  {
+    "id": "froakbit",
+    "name": "Froakbit",
+    "image": "assets/images/froakbit.gif",
+    "sliderImages": [
+      "assets/images/froakbit-profile.png",
+      "assets/images/froakbit-gif.gif",
+      "assets/images/froakbit-static.png"
+    ]
+  },
+  {
+    "id": "chuckent",
+    "name": "Chuckent",
+    "image": "assets/images/chuckent.gif",
+    "sliderImages": [
+      "assets/images/chuckent-profile.png",
+      "assets/images/chuckent-gif.gif",
+      "assets/images/chuckent-static.png"
+    ]
+  },
+  {
+    "id": "barkane",
+    "name": "Barkane",
+    "image": "assets/images/barkane.gif",
+    "sliderImages": [
+      "assets/images/barkane-profile.png",
+      "assets/images/barkane-gif.gif",
+      "assets/images/barkane-static.png"
+    ]
+  },
+  {
+    "id": "pupivor",
+    "name": "Pupivor",
+    "image": "assets/images/pupivor.gif",
+    "sliderImages": [
+      "assets/images/pupivor-profile.png",
+      "assets/images/pupivor-gif.gif",
+      "assets/images/pupivor-static.png"
+    ]
+  },
+  {
+    "id": "petru",
+    "name": "Petru",
+    "image": "assets/images/petru.gif",
+    "sliderImages": [
+      "assets/images/petru-profile.png",
+      "assets/images/petru-gif.gif",
+      "assets/images/petru-static.png"
+    ]
+  },
+  {
+    "id": "samecha",
+    "name": "Samecha",
+    "image": "assets/images/samecha.gif",
+    "sliderImages": [
+      "assets/images/samecha-profile.png",
+      "assets/images/samecha-gif.gif",
+      "assets/images/samecha-static.png"
+    ]
+  },
+  {
+    "id": "octosheriff",
+    "name": "Octosheriff",
+    "image": "assets/images/octosheriff.gif",
+    "sliderImages": [
+      "assets/images/octosheriff-profile.png",
+      "assets/images/octosheriff-gif.gif",
+      "assets/images/octosheriff-static.png"
+    ]
+  },
+  {
+    "id": "phantor",
+    "name": "Phantor",
+    "image": "assets/images/phantor.gif",
+    "sliderImages": [
+      "assets/images/phantor-profile.png",
+      "assets/images/phantor-gif.gif",
+      "assets/images/phantor-static.png"
+    ]
+  },
+  {
+    "id": "konxole",
+    "name": "Konxole",
+    "image": "assets/images/konxole.gif",
+    "sliderImages": [
+      "assets/images/konxole-profile.png",
+      "assets/images/konxole-gif.gif",
+      "assets/images/konxole-static.png"
+    ]
+  }
+
+]
+

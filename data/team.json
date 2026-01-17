@@ -1,0 +1,17 @@
+[
+  {
+    "name":"Saishi",
+  "role":"Founder | Artist | Developer",
+  "image":"assets/images/team/saishi.png",
+  "socials":{
+      "saishi-twitter": "https://x.com/saishi_plays"
+      }
+    },
+  {"name":"Calista",
+  "role":"Moderator",
+  "image":"assets/images/team/calista.png",
+  "socials":{
+      "calista-twitter": "https://x.com/calista_world"
+      }
+    }
+]

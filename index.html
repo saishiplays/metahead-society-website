@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MetaHead Society</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+</head>
+<body class="landing-ui">
+
+  <!-- BACKGROUND -->
+  <div class="landing-bg"></div>
+
+  <!-- TOP BAR NAVIGATION -->
+  <header class="top-bar">
+    <!-- Logo & Title -->
+    <img src="assets/images/logo.png" class="top-logo" alt="MetaHead Logo" onclick="loadCollection(document.querySelector('.top-menu a'))">
+    <img src="assets/images/Metahead-font.png" class="top-title-img" alt="MetaHead Society" onclick="loadCollection(document.querySelector('.top-menu a'))">
+
+    <!-- TOP MENU -->
+    <nav class="top-menu">
+      <a href="#" onclick="loadCollection(this)">Collection</a>
+      <a href="#" onclick="loadUtility(this)">Utility</a>
+
+      <!-- About Dropdown -->
+      <div class="menu-dropdown">
+        <a href="#" class="about-link" onclick="loadAbout(this)">About ▾</a>
+        <div class="dropdown-panel">
+          <a href="#Team" onclick="loadAboutTeam(this)">Team</a>
+          <a href="#Partners" onclick="loadAboutPartners(this)">Partners</a>
+        </div>
+      </div>
+
+      <!-- Lore Dropdown -->
+      <div class="menu-dropdown">
+        <a href="#Lore" class="lore-link">Lore ▾</a>
+        <div class="dropdown-panel">
+          <a href="#Worlds" onclick="loadLoreWorlds(this)">Worlds</a>
+          <a href="#MetaHeads" onclick="loadLoreMetaHeads(this)">MetaHeads</a>
+        </div>
+      </div>
+
+      <a href="#" onclick="loadMarketplace(this)">Marketplace</a>
+      <a href="#" onclick="loadMinigame(this)">Minigame</a>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT PANELS -->
+  <main class="content-panel" id="contentPanel">
+    <!-- COLLECTION -->
+    <div class="panel" id="panel-collection">
+      <img src="assets/images/collection.png" class="content-image" alt="Collection">
+      <h1>METAHEAD SOCIETY</h1>
+      <p id="collection-text">
+        MetaHead Society is a world of pixel-crafted personalities. Each MetaHead is designed with its own distinct style, giving it character, 
+        charm, and a story behind every pixel. Thoughtfully created to feel personal and expressive, MetaHeads offer a unique way to represent 
+        yourself and stand out with purpose in the digital space.
+      </p>
+
+      <!-- IMAGE CAROUSEL -->
+      <div class="image-carousel" id="imageCarousel">
+        <div class="carousel-track">
+          <div class="carousel-slide"><img src="assets/images/slides/slide1.png" alt="Slide 1"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide2.png" alt="Slide 2"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide3.png" alt="Slide 3"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide4.png" alt="Slide 4"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide5.png" alt="Slide 5"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide6.png" alt="Slide 6"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide7.png" alt="Slide 7"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide8.png" alt="Slide 8"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide9.png" alt="Slide 9"></div>
+          <div class="carousel-slide"><img src="assets/images/slides/slide10.png" alt="Slide 10"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UTILITY -->
+    <div class="panel" id="panel-utility">
+      <img src="assets/images/utility.png" class="content-image" alt="Utility">
+      <h1>Gaming</h1>
+      <h2>Pixels Online Avatar [Coming Soon]</h2>
+      <p>
+        MetaHead Society is coming soon to your favorite Web3 farming browser game, Pixels Online! 
+        We submitted our NFT integration application last November, and more updates are coming. Stay tuned!
+      </p>
+      <h2>Future Airdrops</h2>
+      <p>MetaHead NFT holder will be eligible for future airdrops such as:</p>
+      <ul>
+        <li>NFT Airdrops/Giveaway</li>
+        <li>Pixels Online Integrated UGC</li>
+        <li>Pixels Online Guild Whitelist</li>
+      </ul>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="panel" id="panel-about"></div>
+    <div class="panel" id="panel-about-team"><h2>Team</h2></div>
+    <div class="panel" id="panel-about-partners"><h2>Partners</h2></div>
+
+    <!-- LORE -->
+    <div class="panel" id="panel-worlds">
+      <h2>Worlds</h2>
+      <p id="world-text"> Coming Soon</p>
+    </div>
+    <div class="panel" id="panel-metaheads">
+      <h2>Legendary MetaHeads</h2>
+      <div class="lore-grid" id="loreGrid"><!-- JS adds cards --></div>
+    </div>
+
+    <!-- MARKETPLACE -->
+    <div class="panel" id="panel-marketplace">
+      <img src="assets/images/marketplace.png" class="content-image" alt="Marketplace">
+      <h1>Marketplace</h1>
+      <div class="marketplace-grid" id="marketplaceGrid"><!-- JS adds cards --></div>
+    </div>
+
+    <!-- MINIGAME -->
+    <div class="panel" id="panel-minigame">
+      <img src="assets/images/minigame.png" class="content-image" alt="Minigame">
+      <h1>Minigame</h1>
+      <p id="minigame-text">Coming Soon.</p>
+    </div>
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="global-footer">
+    <div class="footer-socials">
+      <a href="https://x.com/MetaHeadSociety" target="_blank">
+        <img src="assets/images/twitter.png" alt="Twitter"><span>Twitter</span>
+      </a>
+      <a href="https://discord.gg/m7XdE6N869" target="_blank">
+        <img src="assets/images/discord.png" alt="Discord"><span>Discord</span>
+      </a>
+      <a href="https://opensea.io/collection/metaheadsociety" target="_blank">
+        <img src="assets/images/opensea.png" alt="OpenSea"><span>OpenSea</span>
+      </a>
+    </div>
+    <div class="footer-copyright">© 2025 MetaHead Society</div>
+  </footer>
+
+  <!-- UI JS -->
+  <script src="js/ui.js"></script>
+</body>
+</html>
